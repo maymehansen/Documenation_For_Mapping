@@ -28,15 +28,16 @@ Database Username
 
 TRAINING_POSTGRES_PUBLIC.PERSON_TRAINING
 
-     *This table gives us information about the person including the following attributes: Preferred_First_Name, Last_Name, Gender, Marital_Status and     Birth_Country.
+     *This table gives us information about the person including the following attributes: Preferred_First_Name, Last_Name, Gender, Marital_Status and Birth_Country.
 
 TRAINING_POSTGRES_PUBLIC.ADDRESS_TRAINING
-     *This table gives us information about the person including the following attributes: CITY and ADDRESS_TYPE.
+
+     *This is used to give us information about the person including the following attributes: CITY and ADDRESS_TYPE.
 
 ## Design Decisions
 - The source is not a custom SQL query as per client request.
 ## Past/Frequent Issues
-- N/A
+- Frequent warning with older_than_2000s flag: 'Error message is [<<Expression Error>> [TO_DATE]: invalid string for converting to Date ... t:TO_DATE(u:'24-Nov-00',u:'DD/Mon/YYYY')].' Still runs and outputs as expected.
 ## Future Enhancements
 - None at this time.
 ## Creators and Editors of the process
