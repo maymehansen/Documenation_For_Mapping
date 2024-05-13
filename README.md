@@ -9,6 +9,9 @@
 This mapping extracts data from the `person_training` and `address_training` tables in the `training_postgres_public` source connection and transforms it according to client requirements. The transformed data is then loaded into a flat file target connection named "Flat File."
 
 ## Business Logic
+
+The client only wants the following attributes: Preferred_First_Name, Last_Name, Gender, Marital_Status, Birth_Country, (a new field) Older_Than_2000s_Flag, CITY, ADDRESS_TYP.
+
 Target Connection
 - `Flat File`
 
