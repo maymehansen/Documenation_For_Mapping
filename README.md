@@ -6,7 +6,7 @@
 ## Overview/Links
   - [Link to Informatica](http://go.byu.edu/infadev)
 
-This mapping extracts data from the `person_training` and `address_training` tables in the `training_postgres_public` source connection and transforms it according to client requirements. The transformed data is then loaded into a flat file target connection named "Flat File."
+This mapping extracts data from the `person_training` and `address_training` tables in the `training_postgres_public` source and transforms it according to client requirements. The transformed data is loaded into a flat file target connection.
 
 ## Business Logic
 
