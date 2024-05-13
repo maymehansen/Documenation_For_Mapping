@@ -20,7 +20,7 @@ Creating `Older_Than_2000s_Flag` Field
 - If an individual is born after January 1, 2000, the flag is set to 'Y'. Else, it is set to 'N'.
 
 Filtering Records
-- Records with `Older_Than_2000s_Flag` marked as 'Y' are filtered out.
+- Those with `Older_Than_2000s_Flag` marked as 'Y' are filtered out.
   
 ## Permissions
 
